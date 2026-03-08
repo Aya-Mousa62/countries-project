@@ -1,0 +1,225 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.Countries {
+    background-color: white;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap:15px;
+padding: 15px;
+border-radius:10px ;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.Germany
+{ 
+   background-color: white;
+   border-top-left-radius:  8 px;
+   border-top-right-radius: 8px;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.USA
+{ 
+
+    background-color: white;
+   border-top-left-radius:  8 px;
+   border-top-right-radius: 8px;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Brazil
+{ 
+
+   background-color: white;
+   border-top-left-radius:  8 px;
+   border-top-right-radius: 8px;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.Iceland
+{ 
+
+    background-color: white;
+   border-top-left-radius:  8 px;
+   border-top-right-radius: 8px;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.Afghanistan
+{ 
+  background-color: white;
+   border-top-left-radius:  8 px;
+   border-top-right-radius: 8px;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+.AlandIslands {
+
+  background-color: white;
+   border-top-left-radius:  8 px;
+   border-top-right-radius: 8px;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.Albania{
+
+    background-color: white;
+   border-top-left-radius:  8 px;
+   border-top-right-radius: 8px;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.Algeria{background-color: white;
+   border-top-left-radius:  8 px;
+   border-top-right-radius: 8px;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .country-details{
+        display: flex;
+        align-items: center;
+        gap: 80 px;
+        
+    }
+
+    .flag {
+        width: 350 px;
+    }
+
+ .info-columns{
+    display: flex;
+    gap:60px;
+ }
+
+#regionFilter{
+    display: block;
+    margin-left: auto;
+    
+}
+/*
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+*/
+body {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: #202c37;
+  color: white;
+}
+
+body.dark .Countries div {
+  background-color: #2b3945;
+  color: white;
+}
+
+.Countries div {
+  margin: 10px;
+  padding: 10px;
+  /* border: 1px solid gray; */
+}
+
+body.dark .top {
+  background-color: #2b3945; /* خلفية الهيدر */
+}
+
+body.dark h1 {
+  color: white; 
+}
+
+
+.Countries div {
+  background-color: #f5f5f5; /* خلفية كل دولة */
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2) }
+
+#darkModeToggle {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: black; /* اللون الأبيض للهلال والنص */
+}
+
+/* لو عندك body.dark، ممكن تخلي النص أبيض برضه */
+body.dark #darkModeToggle {
+  color:#555;
+}
+
+#searchInput {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  width: 250px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* الدارك مود */
+body.dark #searchBox {
+  background-color: #2b3945;
+  color: #555;
+  border: 1px solid #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
